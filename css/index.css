@@ -22,7 +22,7 @@ body{
 }
 
 .name .content .p-1 {
-    color: #ffeae3;
+    color: #fafafa;
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
     font-size: 65px;
@@ -31,7 +31,7 @@ body{
 }
 
 .name .content .p-2 {
-    color: #ffeae3;
+    color: #ffffff;
     font-family: 'Libre Baskerville', serif;
     font-size: 23px;
     transform: skewY(6deg);
@@ -65,16 +65,16 @@ body{
 }
 
 .info .tituloSeccion{
-    color: #ffeae3;
+    color: rgb(0, 0, 0);
     font-family: 'Libre Baskerville', serif;
     font-size: xx-large;
     text-align: center;
     font-weight: bolder;
-    border-bottom: 2px #EAF8BF solid;
+    border-bottom: 2px #ffffff solid;
 }
 
 .info .tituloInfo{
-    color: #ffeae3;
+    color: #ee4005;
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
     font-size: large;
@@ -84,7 +84,7 @@ body{
 }
 
 .info .infoInfo{
-    color: #0d0644;
+    color: #090435;
     font-family: 'Libre Baskerville', serif;
     font-weight: normal;
     font-size: large;
