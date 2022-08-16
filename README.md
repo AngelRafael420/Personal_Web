@@ -6,4 +6,4 @@ Imagen de como se ve:
 
 ![Alt text](img/web1.JPG "Inicio de la web")
 ![Alt text](img/web2.JPG "Medio de la web")
-![Alt text](video/videoPresentacion1.mp4 "Presentacion video")
+![Alt text](img/we3.JPG "Presentacion video")
