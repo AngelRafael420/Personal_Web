@@ -1,93 +1,105 @@
-body{
-    margin:0;
-    padding:0;
-    background: #EAF8BF;
-
+body {
+  margin: 0;
+  padding: 0;
+  background: #127777;
 }
 
-.name{
-    width: 100%;
-    height: 300px;
-    background: #F6AA1C;
-    transform: skewY(-6deg);
-
+.name {
+  width: 100%;
+  height: 300px;
+  background: #081104;
+  transform: skewY(-6deg);
 }
 
 .name .content {
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    left: 25%;
-
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
 }
 
 .name .content .p-1 {
-    color: #fafafa;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bolder;
-    font-size: 65px;
-    transform: skewY(6deg);
-    margin-bottom: 0;
+  color: #f5f5f5;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bolder;
+  font-size: 65px;
+  transform: skewY(6deg);
+  margin-bottom: 0;
 }
 
 .name .content .p-2 {
-    color: #ffffff;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 23px;
-    transform: skewY(6deg);
-    margin-top: 0;
-    margin-bottom: 0;
+  color: #fcfcfc;
+  font-family: "Libre Baskerville", serif;
+  font-size: 23px;
+  transform: skewY(6deg);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.name .img{
-    position: absolute;
-    top: 25%;
-    right: 5%;
-    width: 180px;
-    height: 180;
-    border-radius: 100%;
-    transform: skewY(5deg);
-    overflow: hidden;
+.name .img {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  width: 180px;
+  height: 180;
+  border-radius: 100%;
+  transform: skewY(5deg);
+  overflow: hidden;
 }
 
 .name .img img {
-    width: 180px;
-    height: 210px;
+  width: 180px;
+  height: 210px;
 }
 
 .info {
-    width: 90%;
-    height: auto;
-    background: #F3D34A;
-    margin:6% auto;
-    padding: 20px;
-    border-radius: 20px;
+  width: 90%;
+  height: auto;
+  background: #040411;
+  margin: 6% auto;
+  padding: 20px;
+  border-radius: 20px;
 }
 
-.info .tituloSeccion{
-    color: rgb(0, 0, 0);
-    font-family: 'Libre Baskerville', serif;
-    font-size: xx-large;
-    text-align: center;
-    font-weight: bolder;
-    border-bottom: 2px #ffffff solid;
+.info .tituloSeccion {
+  color: rgb(255, 255, 255);
+  font-family: "Libre Baskerville", serif;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+  border-bottom: 5px #0899ee solid;
 }
 
-.info .tituloInfo{
-    color: #ee4005;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bolder;
-    font-size: large;
-    display: inline;
-    margin-right: 20px;
-
+.info .tituloInfo {
+  color: #06f361;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+  margin-right: 20px;
 }
 
-.info .infoInfo{
-    color: #090435;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: normal;
-    font-size: large;
-    display: inline;
-    
+.info .infoInfo {
+  color: #fcfcfc;
+  font-family: "Libre Baskerville", serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+
+/* Nuevo boton */
+
+.chat-button {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background: url(Icon.svg);
+  background-color: azure;
+  box-shadow: 0px 3pc 12px rgba(0, 0, 0, 0.2);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
 }
